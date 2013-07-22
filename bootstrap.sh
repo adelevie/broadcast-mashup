@@ -23,6 +23,7 @@ mv www/$OLD_FOLDER_NAME/json/ www/maps
 rm -rf www/$OLD_FOLDER_NAME
 
 cp data/state-outlines.js www/state-outlines.js
+cp data/nielsen.js www/nielsen.js
 
 ruby render.rb
 
