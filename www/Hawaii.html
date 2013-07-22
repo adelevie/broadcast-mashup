@@ -19,6 +19,7 @@
 
   <script type="text/javascript" src="state-outlines.js"></script>
   <script type="text/javascript" src="nielsen.js"></script>
+  <script type="text/javascript" src="congressional_districts.js"></script>
 
   <script>
 
@@ -32,6 +33,7 @@
     var stateStyle = {};
 
     L.geoJson(dmas).addTo(map);
+    L.geoJson(districts).addTo(map);
     L.geoJson(statesData, {style: stateStyle}).addTo(map);
 
     var contourStyle = {

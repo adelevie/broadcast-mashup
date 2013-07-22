@@ -24,6 +24,7 @@ rm -rf www/$OLD_FOLDER_NAME
 
 cp data/state-outlines.js www/state-outlines.js
 cp data/nielsen.js www/nielsen.js
+cp data/congressional_districts.js www/congressional_districts.js
 
 ruby render.rb
 
